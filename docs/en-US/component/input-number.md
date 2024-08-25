@@ -100,7 +100,7 @@ input-number/with-prefix-suffix
 ### Attributes
 
 | Name                        | Description                                      | Type                                          | Default   |
-|-----------------------------|--------------------------------------------------| --------------------------------------------- | --------- |
+| --------------------------- | ------------------------------------------------ | --------------------------------------------- | --------- |
 | model-value / v-model       | binding value                                    | ^[number]                                     | —         |
 | min                         | the minimum allowed value                        | ^[number]                                     | -Infinity |
 | max                         | the maximum allowed value                        | ^[number]                                     | Infinity  |
@@ -124,7 +124,7 @@ input-number/with-prefix-suffix
 ### Slots
 
 | Name                   | Description                           |
-|------------------------|---------------------------------------|
+| ---------------------- | ------------------------------------- |
 | decrease-icon ^(2.6.3) | custom input box button decrease icon |
 | increase-icon ^(2.6.3) | custom input box button increase icon |
 | prefix                 | content as Input prefix               |
